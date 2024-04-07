@@ -19,16 +19,29 @@ Example:
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+My encounter design was specifically curated in order to encourage experimentation and easy fun with the games mechanics, particularly in regards to how to approach enemies, who are often positioned in such a way that they are able to threaten the player before the player can threaten them.
+
+My broader level design includes small areas hidden away behind breakable objects, such as in (DocImages/Discovery.png)
+
+Where a secret area has been presented that can be avoided entirely if the player wishes to advance, but they are rewarded both with a sense of discovery at uncovering the area, mastery at defeating the challenge within and relief upon using the health pickup at the end. The Players' sense of discovery is further heightened by discovering the teleporter, which allows them to skip the now largely redundant introduction to breakable walls and objects.
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+Encounters are designed in such a way that, once cleared the area becomes safe apart from environmental hazards, Areas such as the one shown in (DocImages/Drama.png) allow for players to defeat enemies there and then exist in a relatively safe space, which confers a sense of relief and reduces the tension of the moment.
 
-### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+On a far larger scale checkpoints are used as sections of the game are completed, reducing the tension as the risk of lost progress is lessened considerably, and providing relief from the potential tense moment of risking losing significant progress right before the checkpoint.
+
+### 1.3. Challenge  
+The level seeks to challenge players to master the games movement, primarily jumping. It encourages players to plan their jumps, even the simplest of jumps have very small margins of error. To do this players will need to employ physical and intellectual skill, tracking the movement of the floating platforms and timing their inputs appropriately to maximise their ability to progress.
+
+I sought to increase difficulty throughout the level to match Players rising mastery of the games mechanics by combining several causes of difficulty in an area. in (DocImages/Challenge1.png) The simple jump over the acid and the jump onto the moving platform above the spikes are both introductory challenges presented at the beginning of the level which players should master relatively quickly.
+
+Further on in the level however is (DocImages/Challenge2.png) Where a player must make the same jump across an acid pit, however a floating platform covered in spikes floats above menacingly, creating a small window of timing that a player must exploit to progress safely. Furthermore enemies have been added to the other side, capable of targeting the player from a distance, prompting the player to continue moving forward to address the threat.
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+
+In (DocImages/Exploration.png) to progress past the combat introduction section the player can choose to progress the same way they have been going, or to explore, breaking the breakable wall and entering a secret area underneath the previous sections.
+
+Furthermore I made the aesthetic choice to present safe areas using the green grassy tiles and dangerous areas (with enemies and environmental hazards present) as the yellowed dead grass tiles as a visual indicator of the area. I've also used the background tilemap to highlight the difference between the initial cave segment and the mountainside the player comes to later in the level, implying a change of scenery and pushing the player to uncover more of the backdrop hidden behind the mountains. 
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -37,64 +50,47 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-### 2.1. Acid
+### 2.1. Passthrough Platforms Acid,Spikes , Moving Platforms
+(DocImages/SB1.png) 
 
-### 2.2. Moving Platforms
+I chose to present these mechanics in a single combined area, introducing jumping, then jumping over hazards, then jumping onto moving platforms in sequence as concepts that build off the core jumping mechanic. Grouping together the "Environmental" pieces of the game would allow the players to intuit how they work, and to experiment freely in a smaller section of the area
 
-### 2.3.  Spikes
+### 2.2. Checkpoints, Weapon Pickup(Staff & Gun),Chompers, Spitters, 
+(DocImages/SB2.png)
 
-### 2.4. Checkpoints
+Introducing checkpoints before the rest of the "Combat" mechanics was vital, as they are introduced after the environmental introduction and present an immediate danger to the players progress. Encouraged by the safety net of the checkpoint, players can experiment with their weapons as they are introduced to the two enemy types and their behaviours, developing strategies for how to approach them in future with the tools they have and understanding how they threaten players.
 
-### 2.5.  Weapon Pickup(Staff)
 
-### 2.6. Chompers
+### 2.3.  Keys, Health Pickups, Breakable Boxes
+(DocImages/SB3.png)
 
-### 2.7. Spitters
-
-### 2.8.  Health Pickups
-
-### 2.9.  Keys
-
-### 2.10. Weapon Pickup (Gun)
-
-### 2.11. Passthrough Platforms 
+Health Pickups are introduced after the potential danger of the Combat section, hidden behind breakable blocks which are clearly cracked. Players can intuit or reveal through trial and error that blocks can be broken. This introduction can be skipped if players discover the breakable block in the previous area and move past it into the secret area, as it introduces concepts that the player will have already discovered.
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
- 
-### 3.1. Molecule Diagram
+### 3.1. Molecule Diagrams
+(DocImages/MD1.png)
+(DocImages/MD2.png)
+(DocImages/MD3.png)
 
 ### 3.2. Level Map – Section 1
+(DocImages/LM1.png)
 
 ### 3.3.	Level Map – Section 2
+(DocImages/LM2.png)
 
 ### 3.4.	Level Map – Section 3
+(DocImages/LM3.png)
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+(DocImages/Iterative.png)
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+Throughout my level several features have needed to be altered as I go, I've made several updates to my design, both before and after finalising as factors influenced the final design. 
 
-## Generative AI Use Acknowledgement
+Chief among them the positioning of my platforms and their end points, due to the moving nature of the platforms and the difference in their movement duration depending on speed and distance traveled, getting platforms to synchronise to allow players to advance required several itterations, ensuring that it worked no matter how much time passed.
 
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
+Furthermore the placement of enemies had to be considered constantly, as platforms and environmental hazards were added, being knocked back by enemies was a risk I had to choose to either embrace or mitigate and throughout playtesting several updates were made, particularly in the later sections of the level to increase difficulty in certain areas and reduce the challenge in others.
 
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
+I feel as though several features could be further improved through iteration, particularly the placement of environmental hazards such as the floating platforms with spikes, as their positions could be further altered to change how they apply pressure to the player as they traverse the environment
 
 
+	
